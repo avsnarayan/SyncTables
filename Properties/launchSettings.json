@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SyncTables": {
+      "commandName": "Project",
+      "commandLineArgs": "-sc \"Initial Catalog=BAMSQLDB;Data Source=SQL2016-P-FCGN,1546;Integrated Security=SSPI\" -tc \"Initial Catalog=BAMSQLDB;Data Source=SQL2016-D-FCGN,1546;Integrated Security=SSPI\" -t \"[Rebalancer].[MultiFactorScore]\" -k \"[MultiFactorScoreId]\""
+    }
+  }
+}
